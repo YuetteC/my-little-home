@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e3;
+    color: #333;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    padding: 20px;
+    background-color: #ffdbac;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffafcc;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ffdbac;
+}
+
+/* 夜間模式 */
+.dark-mode {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.dark-mode header, .dark-mode footer {
+    background-color: #444;
+}
